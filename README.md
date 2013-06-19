@@ -1,11 +1,9 @@
-#【jQuery】ページ内リンクをするするーっとスムースにスクロールするJavascript
-
-<img src="http://klutche.org/wp-content/uploads/2012/02/013.jpg" alt="" title="01" width="400" height="200" class="alignnone size-full wp-image-539" />
+# 【jQuery】ページ内リンクをするするーっとスムースにスクロールするJavascript
 
 最近ではページ内でリンクを飛ばす際には当然の仕様となっているスムーススクロールを簡単なタグで実現します。
 <!--more-->
 
-##どうだい？スムースだろ？
+## どうだい？スムースだろ？
 
 <a href="http://klutche.org/demo/smooth/" target="_blank">デモページ</a>
 
@@ -13,14 +11,14 @@
 1時間くらいならずっとスクロールを見ていられます。
 鬱の時なら半日はいけます！
 
-##HTML
+## HTML
 
 `<a href="#bottom">下へスムース！</a>`
 
 なにも工夫しなくて良いです。
 ただ＃をつけてアンカーポイントへリンクを貼るだけです。
 
-##Javascript
+## Javascript
 
 jQuery依存のスクリプトなので、head内でjQueryを呼び出しましょう。
 
@@ -44,5 +42,5 @@ jQuery依存のスクリプトなので、head内でjQueryを呼び出しまし�
 
 これで、ページ内リンクであれば勝手にスムーススクロール処理をしてくれます。
 
-`var speed = 500;` の部分がスクロール完了までの時間です。
+`var speed = 500;`の部分がスクロール完了までの時間です。
 数字が小さいほどシャッ!と動きます。

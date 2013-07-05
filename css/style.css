@@ -21,6 +21,6 @@ article, aside, figure, footer, header, hgroup, nav, section { display:block; ma
  * body
 ************************************************************/
 
-body { text-align:center; background:url(back.jpg) repeat; }
+body { text-align:center; background:url(../img/bg.jpg) repeat; }
 a { display:block; color:#fff; background:#000; text-decoration:none; padding:10px; }
 a:hover { background:#f00; }
